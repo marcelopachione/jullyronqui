@@ -47,7 +47,7 @@
 </script>
 
 <link rel="stylesheet" href="css/main.css">
-<noscript><style>.reveal-element{opacity:1!important;filter:none!important;transform:none!important}.wa-float{opacity:1!important;visibility:visible!important;transform:none!important}</style></noscript>
+<noscript><style>.reveal-element{opacity:1!important;filter:none!important;transform:none!important}.wa-float{opacity:1!important;visibility:visible!important;transform:none!important}@media (max-width:639px){header [data-hero-idx="0"]{display:block!important}}</style></noscript>
 </head>
 
 <body class="bg-nude-100 text-burgundy-800 font-sans antialiased overflow-x-hidden selection:bg-accent-500 selection:text-white">
@@ -173,11 +173,11 @@
     <!-- Arch gallery -->
     <div class="relative z-10 grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto px-4">
 
-      <figure class="reveal-element delay-100 group relative m-0">
+      <figure class="reveal-element delay-100 group relative m-0" data-hero-idx="0">
         <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
           <picture>
-            <script>document.write('<source srcset="assets/images/' + window.__hero.brows.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.brows.base + '.jpg" width="720" height="900" fetchpriority="high" decoding="async" alt="' + window.__hero.brows.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <script>window.__heroWriteImg(0, 'brows');</script>
             <noscript>
               <source srcset="assets/images/brows.webp" type="image/webp">
               <img src="assets/images/brows.jpg" width="720" height="900" fetchpriority="high" decoding="async"
@@ -192,11 +192,11 @@
         </div>
       </figure>
 
-      <figure class="reveal-element delay-200 group relative m-0 sm:mt-10">
+      <figure class="reveal-element delay-200 group relative m-0 sm:mt-10" data-hero-idx="1">
         <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
           <picture>
-            <script>document.write('<source srcset="assets/images/' + window.__hero.massage.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.massage.base + '.jpg" width="720" height="900" loading="lazy" decoding="async" alt="' + window.__hero.massage.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <script>window.__heroWriteImg(1, 'massage');</script>
             <noscript>
               <source srcset="assets/images/massage.webp" type="image/webp">
               <img src="assets/images/massage.jpg" width="720" height="900" loading="lazy" decoding="async"
@@ -211,11 +211,11 @@
         </div>
       </figure>
 
-      <figure class="reveal-element delay-300 group relative m-0">
+      <figure class="reveal-element delay-300 group relative m-0" data-hero-idx="2">
         <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
           <picture>
-            <script>document.write('<source srcset="assets/images/' + window.__hero.micro.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.micro.base + '.jpg" width="720" height="900" loading="lazy" decoding="async" alt="' + window.__hero.micro.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <script>window.__heroWriteImg(2, 'micro');</script>
             <noscript>
               <source srcset="assets/images/micropigmentation.webp" type="image/webp">
               <img src="assets/images/micropigmentation.jpg" width="720" height="900" loading="lazy" decoding="async"

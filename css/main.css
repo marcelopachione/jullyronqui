@@ -20,6 +20,15 @@ body { margin:0; font-family:'Inter', sans-serif; }
 /* When GSAP drives the reveal it owns the inline styles — drop the CSS transition */
 .gsap-ready .reveal-element { transition:none }
 
+/* Hero arch gallery — mobile shows a single, randomly-picked figure instead
+   of stacking all three (image + JS pick live in js/hero-gallery.js) */
+@media (max-width: 639px) {
+  header [data-hero-idx] { display:none }
+  html.hero-pick-0 header [data-hero-idx="0"],
+  html.hero-pick-1 header [data-hero-idx="1"],
+  html.hero-pick-2 header [data-hero-idx="2"] { display:block }
+}
+
 /* Ambient orbs */
 .orb { position:absolute; border-radius:9999px; pointer-events:none; filter:blur(70px); z-index:0 }
 .orb-accent   { background:radial-gradient(circle, rgba(141,90,72,.35), transparent 70%) }
