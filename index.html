@@ -1,0 +1,1059 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facial &amp; Massage Clinic in Dublin | Jully Ronqui</title>
+<meta name="description" content="Personalised facials, massages, brows &amp; lashes in Seven Mills, Dublin. One client at a time, by appointment on WhatsApp.">
+<meta property="og:title" content="Jully Ronqui Beauty &amp; Wellness — Dublin">
+<meta property="og:description" content="Personalised facials, massages, brows &amp; lashes in Seven Mills, Dublin. One client at a time, by appointment on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_IE">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="theme-color" content="#FBF6F1">
+<link rel="icon" type="image/png" href="assets/icons/favicon.png">
+<link rel="apple-touch-icon" href="assets/icons/favicon.png">
+
+<script src="js/hero-gallery.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Design system: Tailwind 3.4.17 + brand tokens (nude / burgundy / accent) -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          nude:     { 50:'#FBF6F1', 100:'#FBF6F1', 200:'#F2E6DD', 300:'#E8BDB0' },
+          burgundy: { 800:'#4A2E23', 900:'#342018' },
+          accent:   { 500:'#8D5A48' },
+          gold:     { 500:'#D4AF7A' },
+          whats:    '#1DA851'
+        },
+        fontFamily: {
+          sans:  ['Inter', 'sans-serif'],
+          serif: ['Playfair Display', 'serif']
+        },
+        backgroundImage: { 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))' }
+      }
+    }
+  }
+</script>
+
+<link rel="stylesheet" href="css/main.css">
+<noscript><style>.reveal-element{opacity:1!important;filter:none!important;transform:none!important}.wa-float{opacity:1!important;visibility:visible!important;transform:none!important}</style></noscript>
+</head>
+
+<body class="bg-nude-100 text-burgundy-800 font-sans antialiased overflow-x-hidden selection:bg-accent-500 selection:text-white">
+
+<a href="#top" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[70] focus:bg-accent-500 focus:text-white focus:px-4 focus:py-2 focus:rounded-full focus:text-sm">
+  <span class="t-en">Skip to content</span><span class="t-pt">Ir para o conteúdo</span>
+</a>
+
+<!-- Floating WhatsApp -->
+<a id="waFloat" href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+   class="wa-float fixed right-5 bottom-5 z-[60] w-14 h-14 rounded-full bg-whats text-white flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300"
+   aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-7 h-7"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>
+</a>
+
+<!-- Top bar -->
+<div class="border-burgundy-800/10 bg-nude-200 w-full border-b py-2 px-6">
+  <div class="max-w-7xl mx-auto flex justify-between items-center text-[10px] md:text-xs tracking-wide uppercase font-medium">
+    <span class="opacity-70">
+      <span class="t-en">By appointment only &middot; Seven Mills, Dublin</span>
+      <span class="t-pt">Só por agendamento &middot; Seven Mills, Dublin</span>
+    </span>
+    <button id="langToggle" type="button"
+      class="flex items-center gap-1.5 opacity-70 hover:opacity-100 hover:text-accent-500 transition-colors uppercase tracking-wider">
+      <i data-lucide="languages" class="w-3.5 h-3.5"></i><span id="langLabel">PT</span>
+    </button>
+  </div>
+</div>
+
+<!-- Navigation -->
+<nav id="navbar" class="sticky top-0 z-50 w-full bg-nude-100/85 backdrop-blur-sm border-b border-transparent transition-all duration-300 py-4 px-6">
+  <div class="max-w-7xl mx-auto flex justify-between items-center gap-4">
+    <a href="#top" class="brand group flex items-center gap-3 md:gap-4" aria-label="Jully Ronqui Beauty &amp; Wellness — home">
+      <img src="assets/icons/brand-mark-accent.png" alt="Jully Ronqui monogram"
+           class="brand-mark h-11 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105">
+      <span class="brand-rule hidden sm:block w-px h-9 bg-burgundy-800/15"></span>
+      <span class="hidden sm:block leading-none">
+        <span class="block font-serif text-lg md:text-xl font-medium tracking-tight whitespace-nowrap">Jully Ronqui</span>
+        <span class="hidden sm:block font-sans text-[9px] tracking-[0.22em] uppercase text-burgundy-800/75 mt-1.5">Beauty &amp; Wellness</span>
+      </span>
+    </a>
+
+    <div class="hidden md:flex gap-8 text-sm font-medium tracking-wide">
+      <a class="hover:text-accent-500 transition-colors" href="#servicos"><span class="t-en">Services</span><span class="t-pt">Serviços</span></a>
+      <a class="hover:text-accent-500 transition-colors" href="#sobre"><span class="t-en">About</span><span class="t-pt">Sobre</span></a>
+      <a class="hover:text-accent-500 transition-colors" href="#faq">FAQ</a>
+      <a class="hover:text-accent-500 transition-colors" href="#contato"><span class="t-en">Contact</span><span class="t-pt">Contato</span></a>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <a id="waTop" href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+         class="shine bg-accent-500 hover:bg-burgundy-800 text-white text-[11px] md:text-xs font-medium uppercase tracking-wider px-5 py-3 rounded-full transition-colors duration-300 flex items-center gap-2 whitespace-nowrap">
+        <span class="t-en">Book now</span><span class="t-pt">Agendar</span>
+        <i data-lucide="arrow-right" class="w-3 h-3"></i>
+      </a>
+
+      <button id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileMenu"
+              class="md:hidden w-11 h-11 -mr-2 flex items-center justify-center rounded-full hover:bg-nude-200 transition-colors">
+        <span class="sr-only">
+          <span id="menuLabelOpen"><span class="t-en">Open menu</span><span class="t-pt">Abrir menu</span></span>
+          <span id="menuLabelClose" class="hidden"><span class="t-en">Close menu</span><span class="t-pt">Fechar menu</span></span>
+        </span>
+        <i data-lucide="menu" id="menuIconOpen" class="w-5 h-5"></i>
+        <i data-lucide="x" id="menuIconClose" class="w-5 h-5 hidden"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" hidden class="md:hidden mt-4 pt-4 border-t border-burgundy-800/10 shadow-[0_16px_24px_-18px_rgba(52,32,24,0.35)]">
+    <nav class="flex flex-col gap-1 text-sm font-medium" aria-label="Mobile">
+      <a class="menu-link py-3 px-2 rounded-lg hover:bg-nude-200 hover:text-accent-500 transition-colors" href="#servicos"><span class="t-en">Services &amp; prices</span><span class="t-pt">Serviços e preços</span></a>
+      <a class="menu-link py-3 px-2 rounded-lg hover:bg-nude-200 hover:text-accent-500 transition-colors" href="#sobre"><span class="t-en">About Jully</span><span class="t-pt">Sobre a Jully</span></a>
+      <a class="menu-link py-3 px-2 rounded-lg hover:bg-nude-200 hover:text-accent-500 transition-colors" href="#faq">FAQ</a>
+      <a class="menu-link py-3 px-2 rounded-lg hover:bg-nude-200 hover:text-accent-500 transition-colors" href="#contato"><span class="t-en">Contact</span><span class="t-pt">Contato</span></a>
+    </nav>
+    <div class="flex items-center gap-4 mt-3 pt-3 border-t border-burgundy-800/10 text-xs text-burgundy-800/75">
+      <a href="tel:+353899447831" class="flex items-center gap-2 hover:text-accent-500 transition-colors">
+        <i data-lucide="phone" class="w-3.5 h-3.5"></i> +353 89 944 7831
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <header class="relative overflow-hidden pt-14 pb-20 px-6 noise">
+    <div class="orb orb-accent w-[380px] h-[380px] -top-24 -left-20" data-parallax="0.25"></div>
+    <div class="orb orb-nude w-[420px] h-[420px] top-10 -right-24" data-parallax="0.15"></div>
+
+    <div class="relative z-10 text-center max-w-5xl mx-auto">
+      <span class="reveal-element inline-flex items-center gap-2 bg-white/70 backdrop-blur-md border border-burgundy-800/10 rounded-full px-4 py-1.5 text-[10px] uppercase tracking-widest font-semibold text-accent-500 mb-6">
+        <i data-lucide="sparkle" class="w-3 h-3"></i>
+        <span class="t-en">Facials &middot; Massages &middot; Brows &amp; Lashes</span>
+        <span class="t-pt">Facial &middot; Massagens &middot; Sobrancelhas e Cílios</span>
+      </span>
+
+      <h1 class="reveal-element delay-100 font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] tracking-tight mb-6">
+        <span class="t-en">For the hour you're here,<br class="hidden sm:block"> you're the <span class="italic font-light text-accent-500">only client</span> that exists.</span>
+        <span class="t-pt">Pela hora que você está aqui,<br class="hidden sm:block"> você é a <span class="italic font-light text-accent-500">única cliente</span> que existe.</span>
+      </h1>
+
+      <p class="reveal-element delay-200 text-sm sm:text-base md:whitespace-nowrap text-burgundy-800/75 mb-8 leading-relaxed">
+        <span class="t-en">Facials, massages, brows &amp; lashes and waxing in Seven Mills, Dublin.</span>
+        <span class="t-pt">Facial, massagens, sobrancelhas, cílios e depilação em Seven Mills, Dublin.</span>
+      </p>
+
+      <div class="reveal-element delay-300 flex flex-col sm:flex-row gap-3 justify-center items-center mb-10">
+        <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+           class="wa-link shine bg-burgundy-800 hover:bg-accent-500 text-white px-8 py-3.5 rounded-full text-sm font-medium transition-colors duration-300 flex items-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span class="t-en">Book on WhatsApp</span><span class="t-pt">Agendar no WhatsApp</span>
+        </a>
+        <a href="#servicos"
+           class="bg-white/70 backdrop-blur-md border border-burgundy-800/10 hover:bg-white px-8 py-3.5 rounded-full text-sm font-medium transition-colors duration-300 flex items-center gap-2">
+          <span class="t-en">See services &amp; prices</span><span class="t-pt">Ver serviços e preços</span>
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Arch gallery -->
+    <div class="relative z-10 grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto px-4">
+
+      <figure class="reveal-element delay-100 group relative m-0">
+        <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
+          <picture>
+            <script>document.write('<source srcset="assets/images/' + window.__hero.brows.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.brows.base + '.jpg" width="720" height="900" fetchpriority="high" decoding="async" alt="' + window.__hero.brows.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <noscript>
+              <source srcset="assets/images/brows.webp" type="image/webp">
+              <img src="assets/images/brows.jpg" width="720" height="900" fetchpriority="high" decoding="async"
+                   alt="Eyebrow design being shaped with tweezers during a brow appointment"
+                   class="w-full h-full object-cover">
+            </noscript>
+          </picture>
+          <div class="absolute inset-0 bg-gradient-to-t from-burgundy-900/60 via-burgundy-900/5 to-transparent"></div>
+          <figcaption class="absolute bottom-7 inset-x-0 text-center text-white text-[10px] uppercase tracking-[0.2em] font-medium drop-shadow">
+            <span class="t-en">Brows &amp; Lashes</span><span class="t-pt">Sobrancelhas e Cílios</span>
+          </figcaption>
+        </div>
+      </figure>
+
+      <figure class="reveal-element delay-200 group relative m-0 sm:mt-10">
+        <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
+          <picture>
+            <script>document.write('<source srcset="assets/images/' + window.__hero.massage.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.massage.base + '.jpg" width="720" height="900" loading="lazy" decoding="async" alt="' + window.__hero.massage.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <noscript>
+              <source srcset="assets/images/massage.webp" type="image/webp">
+              <img src="assets/images/massage.jpg" width="720" height="900" loading="lazy" decoding="async"
+                   alt="Relaxing back massage in a warmly lit treatment room"
+                   class="w-full h-full object-cover">
+            </noscript>
+          </picture>
+          <div class="absolute inset-0 bg-gradient-to-t from-burgundy-900/60 via-burgundy-900/5 to-transparent"></div>
+          <figcaption class="absolute bottom-7 inset-x-0 text-center text-white text-[10px] uppercase tracking-[0.2em] font-medium drop-shadow">
+            <span class="t-en">Massages</span><span class="t-pt">Massagens</span>
+          </figcaption>
+        </div>
+      </figure>
+
+      <figure class="reveal-element delay-300 group relative m-0">
+        <div class="absolute -inset-3 bg-accent-500/20 rounded-t-[200px] rounded-b-[100px] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative aspect-[4/5] overflow-hidden rounded-t-[200px] rounded-b-[100px] shadow-xl bg-nude-200">
+          <picture>
+            <script>document.write('<source srcset="assets/images/' + window.__hero.micro.base + '.webp" type="image/webp"><img src="assets/images/' + window.__hero.micro.base + '.jpg" width="720" height="900" loading="lazy" decoding="async" alt="' + window.__hero.micro.alt + '" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">');</script>
+            <noscript>
+              <source srcset="assets/images/micropigmentation.webp" type="image/webp">
+              <img src="assets/images/micropigmentation.jpg" width="720" height="900" loading="lazy" decoding="async"
+                   alt="Eyebrow micropigmentation being applied with a precision pen"
+                   class="w-full h-full object-cover">
+            </noscript>
+          </picture>
+          <div class="absolute inset-0 bg-gradient-to-t from-burgundy-900/60 via-burgundy-900/5 to-transparent"></div>
+          <span class="absolute top-6 left-1/2 -translate-x-1/2 bg-nude-100/95 text-accent-500 text-[9px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full whitespace-nowrap">
+            <span class="t-en">Coming soon</span><span class="t-pt">Em breve</span>
+          </span>
+          <figcaption class="absolute bottom-7 inset-x-0 text-center text-white text-[10px] uppercase tracking-[0.2em] font-medium drop-shadow">
+            Microblading
+          </figcaption>
+        </div>
+      </figure>
+    </div>
+
+    <!-- Trust badges -->
+    <div class="reveal-element relative z-10 flex flex-wrap justify-center gap-x-8 gap-y-4 mt-12 text-center">
+      <div class="flex items-center gap-2">
+        <i data-lucide="calendar-check" class="w-4 h-4 text-accent-500"></i>
+        <span class="text-xs uppercase tracking-wide font-medium opacity-70"><span class="t-en">By appointment only</span><span class="t-pt">Só por agendamento</span></span>
+      </div>
+      <div class="flex items-center gap-2">
+        <i data-lucide="user-round" class="w-4 h-4 text-accent-500"></i>
+        <span class="text-xs uppercase tracking-wide font-medium opacity-70"><span class="t-en">One client at a time</span><span class="t-pt">Uma cliente por vez</span></span>
+      </div>
+      <div class="flex items-center gap-2">
+        <i data-lucide="map-pin" class="w-4 h-4 text-accent-500"></i>
+        <span class="text-xs uppercase tracking-wide font-medium opacity-70">Seven Mills, Dublin</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Service marquee -->
+  <div class="marquee-wrap overflow-hidden mask-fade border-y border-burgundy-800/10 bg-nude-200/40 py-4" aria-hidden="true">
+    <div class="marquee-track gap-10 items-center text-xs uppercase tracking-[0.25em] font-medium text-burgundy-800/75">
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="sparkle" class="w-3 h-3 text-accent-500"></i><span class="t-en">Facials</span><span class="t-pt">Facial</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="flower-2" class="w-3 h-3 text-accent-500"></i><span class="t-en">Massages</span><span class="t-pt">Massagens</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="eye" class="w-3 h-3 text-accent-500"></i><span class="t-en">Brows &amp; Lashes</span><span class="t-pt">Sobrancelhas e Cílios</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="feather" class="w-3 h-3 text-accent-500"></i><span class="t-en">Waxing</span><span class="t-pt">Depilação</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="heart" class="w-3 h-3 text-accent-500"></i><span class="t-en">Mini Day Spa</span><span class="t-pt">Mini Day Spa</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="sparkle" class="w-3 h-3 text-accent-500"></i><span class="t-en">Facials</span><span class="t-pt">Facial</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="flower-2" class="w-3 h-3 text-accent-500"></i><span class="t-en">Massages</span><span class="t-pt">Massagens</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="eye" class="w-3 h-3 text-accent-500"></i><span class="t-en">Brows &amp; Lashes</span><span class="t-pt">Sobrancelhas e Cílios</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="feather" class="w-3 h-3 text-accent-500"></i><span class="t-en">Waxing</span><span class="t-pt">Depilação</span></span>
+      <span class="flex items-center gap-2 pr-10"><i data-lucide="heart" class="w-3 h-3 text-accent-500"></i><span class="t-en">Mini Day Spa</span><span class="t-pt">Mini Day Spa</span></span>
+    </div>
+  </div>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section class="relative py-24 px-6 overflow-hidden">
+    <div class="orb orb-nude w-[300px] h-[300px] top-0 right-0" data-parallax="0.12"></div>
+
+    <div class="relative z-10 text-center mb-16 reveal-element">
+      <span class="text-xs uppercase tracking-widest opacity-70 mb-3 block"><span class="t-en">What I do</span><span class="t-pt">O que eu faço</span></span>
+      <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Care built</span><span class="t-pt">Cuidado feito</span></h2>
+      <p class="font-serif text-3xl md:text-4xl italic text-accent-500"><span class="t-en">around you</span><span class="t-pt">para você</span></p>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      <a href="#servicos" class="reveal-element delay-100 bg-nude-200/50 p-6 md:p-8 rounded-2xl text-center hover:bg-nude-200 hover:-translate-y-1 transition-all duration-300 group">
+        <span class="bg-white/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+          <i data-lucide="sparkles" class="w-5 h-5 text-burgundy-800 stroke-[1.5]"></i>
+        </span>
+        <h3 class="font-serif text-lg md:text-xl font-medium mb-1 min-h-[3.5rem] lg:min-h-0 flex items-center justify-center"><span class="t-en">Facials</span><span class="t-pt">Facial</span></h3>
+        <p class="text-[10px] md:text-xs uppercase tracking-widest text-burgundy-800/75"><span class="t-en">4 treatments</span><span class="t-pt">4 tratamentos</span></p>
+      </a>
+
+      <a href="#servicos" class="reveal-element delay-200 bg-nude-200/50 p-6 md:p-8 rounded-2xl text-center hover:bg-nude-200 hover:-translate-y-1 transition-all duration-300 group">
+        <span class="bg-white/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+          <i data-lucide="flower-2" class="w-5 h-5 text-burgundy-800 stroke-[1.5]"></i>
+        </span>
+        <h3 class="font-serif text-lg md:text-xl font-medium mb-1 min-h-[3.5rem] lg:min-h-0 flex items-center justify-center"><span class="t-en">Massages</span><span class="t-pt">Massagens</span></h3>
+        <p class="text-[10px] md:text-xs uppercase tracking-widest text-burgundy-800/75"><span class="t-en">4 treatments</span><span class="t-pt">4 tratamentos</span></p>
+      </a>
+
+      <a href="#servicos" class="reveal-element delay-300 bg-nude-200/50 p-6 md:p-8 rounded-2xl text-center hover:bg-nude-200 hover:-translate-y-1 transition-all duration-300 group">
+        <span class="bg-white/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+          <i data-lucide="eye" class="w-5 h-5 text-burgundy-800 stroke-[1.5]"></i>
+        </span>
+        <h3 class="font-serif text-lg md:text-xl font-medium mb-1 min-h-[3.5rem] lg:min-h-0 flex items-center justify-center"><span class="t-en">Brows &amp; Lashes</span><span class="t-pt">Sobrancelhas</span></h3>
+        <p class="text-[10px] md:text-xs uppercase tracking-widest text-burgundy-800/75"><span class="t-en">4 treatments</span><span class="t-pt">4 tratamentos</span></p>
+      </a>
+
+      <a href="#servicos" class="reveal-element delay-300 bg-nude-200/50 p-6 md:p-8 rounded-2xl text-center hover:bg-nude-200 hover:-translate-y-1 transition-all duration-300 group">
+        <span class="bg-white/60 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform">
+          <i data-lucide="feather" class="w-5 h-5 text-burgundy-800 stroke-[1.5]"></i>
+        </span>
+        <h3 class="font-serif text-lg md:text-xl font-medium mb-1 min-h-[3.5rem] lg:min-h-0 flex items-center justify-center"><span class="t-en">Waxing</span><span class="t-pt">Depilação</span></h3>
+        <p class="text-[10px] md:text-xs uppercase tracking-widest text-burgundy-800/75"><span class="t-en">6 areas</span><span class="t-pt">6 áreas</span></p>
+      </a>
+    </div>
+
+    <!-- Real, verifiable numbers only -->
+    <div class="relative z-10 flex justify-center gap-10 md:gap-24 mt-16 text-center reveal-element delay-200">
+      <div>
+        <div class="flex items-center justify-center gap-2 font-serif text-3xl md:text-4xl text-accent-500">
+          <i data-lucide="list" class="w-5 h-5"></i><span class="count" data-count="18">18</span>
+        </div>
+        <span class="text-[10px] md:text-xs font-medium uppercase tracking-wide opacity-70 mt-2 block">
+          <span class="t-en">Treatments on the menu</span><span class="t-pt">Serviços no menu</span>
+        </span>
+      </div>
+      <div>
+        <div class="flex items-center justify-center gap-2 font-serif text-3xl md:text-4xl text-accent-500">
+          <i data-lucide="user-round" class="w-5 h-5"></i><span class="count" data-count="1">1</span>
+        </div>
+        <span class="text-[10px] md:text-xs font-medium uppercase tracking-wide opacity-70 mt-2 block">
+          <span class="t-en">Client per appointment</span><span class="t-pt">Cliente por horário</span>
+        </span>
+      </div>
+      <div>
+        <div class="flex items-center justify-center gap-2 font-serif text-3xl md:text-4xl text-accent-500">
+          <i data-lucide="heart" class="w-5 h-5"></i><span class="count" data-count="100">100</span>%
+        </div>
+        <span class="text-[10px] md:text-xs font-medium uppercase tracking-wide opacity-70 mt-2 block">
+          <span class="t-en">Of the slot is yours</span><span class="t-pt">Do horário é seu</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="sobre" class="py-24 px-6 bg-nude-200/30 relative overflow-hidden noise">
+    <div class="orb orb-accent w-[280px] h-[280px] -bottom-16 -left-16" data-parallax="0.18"></div>
+
+    <div class="relative z-10 max-w-6xl mx-auto">
+      <div class="text-center mb-16 reveal-element">
+        <span class="text-xs uppercase tracking-widest opacity-70 mb-3 block"><span class="t-en">About</span><span class="t-pt">Sobre</span></span>
+        <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Rooted in attention.</span><span class="t-pt">Feito de atenção.</span></h2>
+        <p class="font-serif text-3xl md:text-4xl italic text-accent-500"><span class="t-en">Built on detail</span><span class="t-pt">Construído no detalhe</span></p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 items-center">
+        <div class="md:col-span-5 reveal-element delay-100 relative">
+          <div class="about-crop aspect-[3/4] rounded-2xl shadow-xl bg-nude-200" role="img"
+               aria-label="Jully Ronqui smiling in her treatment room"></div>
+          <div class="absolute -bottom-8 -right-3 md:-right-10 bg-nude-100/95 backdrop-blur-md p-6 rounded-xl shadow-xl border border-burgundy-800/5 max-w-[260px]">
+            <i data-lucide="quote" class="w-5 h-5 text-gold-500 mb-2 rotate-180"></i>
+            <p class="font-serif italic text-base leading-relaxed">
+              <span class="t-en">I can't wait to welcome you.</span>
+              <span class="t-pt">Mal posso esperar para te receber.</span>
+            </p>
+            <p class="text-[10px] uppercase tracking-wide opacity-70 mt-2">Jully Ronqui</p>
+          </div>
+        </div>
+
+        <div class="md:col-span-7 reveal-element delay-200 space-y-5 text-burgundy-800/75 leading-relaxed">
+          <p class="text-lg text-burgundy-800">
+            <span class="t-en">I believe my greatest strength is the attention I give to every detail — and the way I see each client as an individual.</span>
+            <span class="t-pt">Acredito que meu maior diferencial é a atenção que dedico a cada detalhe — e a forma como enxergo cada cliente como alguém único.</span>
+          </p>
+          <p>
+            <span class="t-en">For me, an appointment goes far beyond the treatment itself. Whether it's a beauty service or a moment of relaxation, I take the time to understand what you need and what you hope to feel.</span>
+            <span class="t-pt">Para mim, um atendimento vai muito além do tratamento em si. Seja um serviço de beleza ou um momento de relaxamento, eu reservo um tempo pra entender o que você precisa e o que espera sentir.</span>
+          </p>
+          <p>
+            <span class="t-en">From the moment we book that time together, I'm 100% dedicated to you — the environment, the comfort, the technique, every small detail — so you feel welcomed and genuinely cared for from start to finish.</span>
+            <span class="t-pt">A partir do momento em que agendamos esse tempo juntas, sou 100% dedicada a você — o ambiente, o conforto, a técnica, cada pequeno detalhe — para que você se sinta bem recebida e verdadeiramente cuidada do início ao fim.</span>
+          </p>
+          <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+             class="wa-link inline-flex items-center gap-2 text-sm font-medium text-accent-500 hover:text-burgundy-800 transition-colors pt-2">
+            <span class="t-en">Message Jully on WhatsApp</span><span class="t-pt">Falar com a Jully no WhatsApp</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES MENU ============ -->
+  <section id="servicos" class="py-24 px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 reveal-element gap-6">
+        <div>
+          <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Services</span><span class="t-pt">Serviços</span></h2>
+          <p class="font-serif text-4xl md:text-5xl italic text-accent-500"><span class="t-en">&amp; prices</span><span class="t-pt">e preços</span></p>
+        </div>
+        <p class="text-xs max-w-[260px] text-burgundy-800/75 md:text-right">
+          <span class="t-en">Every treatment is booked one-to-one — no overlapping appointments, no rush.</span>
+          <span class="t-pt">Cada tratamento é reservado só pra você — sem sobreposição de horários, sem pressa.</span>
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+
+        <!-- Facial -->
+        <div class="reveal-element delay-100">
+          <div class="flex items-center gap-2 mb-6 opacity-70">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span class="text-xs uppercase tracking-widest font-medium"><span class="t-en">Facial Treatments</span><span class="t-pt">Tratamentos Faciais</span></span>
+          </div>
+          <ul class="space-y-4">
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Glow Experience</span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€75</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Deep cleansing facial for healthy, luminous skin.</span><span class="t-pt">Limpeza de pele profunda para uma pele saudável e luminosa.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Dermaplaning</span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€75</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Exfoliates and removes dead skin cells for smoother, brighter skin.</span><span class="t-pt">Esfolia e remove células mortas para uma pele mais lisa e luminosa.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Post-Holiday Glow Facial</span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€75</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Brightening &amp; revitalising facial for dull, uneven post-holiday skin.</span><span class="t-pt">Facial revitalizante e iluminador para peles opacas após as férias.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Facial Express <span class="text-xs opacity-70">(30 min)</span></span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€45</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Quick and effective facial to refresh and revitalise your skin.</span><span class="t-pt">Facial rápido e eficaz para refrescar e revitalizar a pele.</span></p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Massages -->
+        <div class="reveal-element delay-200">
+          <div class="flex items-center gap-2 mb-6 opacity-70">
+            <i data-lucide="flower-2" class="w-3.5 h-3.5"></i>
+            <span class="text-xs uppercase tracking-widest font-medium"><span class="t-en">Massages &amp; Body</span><span class="t-pt">Massagens e Corpo</span></span>
+          </div>
+          <ul class="space-y-4">
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Relaxing Massage <span class="text-xs opacity-70">(60 min)</span></span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€70</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Relieves muscle tension and promotes deep relaxation.</span><span class="t-pt">Alivia a tensão muscular e promove relaxamento profundo.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Lymphatic Drainage <span class="text-xs opacity-70">(60 min)</span></span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€70</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Reduces swelling and promotes detox.</span><span class="t-pt">Reduz o inchaço e promove desintoxicação.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Pregnancy Massage <span class="text-xs opacity-70">(60 min)</span></span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€70</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Relieves tension and swelling, promotes well-being during pregnancy.</span><span class="t-pt">Alivia tensão e inchaço, promove bem-estar durante a gravidez.</span></p>
+            </li>
+            <li class="border-b border-burgundy-800/10 pb-2">
+              <div class="flex justify-between items-baseline gap-4">
+                <span class="text-lg font-serif">Relax Express <span class="text-xs opacity-70">(30 min)</span></span>
+                <span class="text-lg italic font-serif text-accent-500 whitespace-nowrap">€40</span>
+              </div>
+              <p class="text-xs text-burgundy-800/75 mt-1"><span class="t-en">Targeted massage: back, shoulders and neck.</span><span class="t-pt">Massagem localizada: costas, ombros e pescoço.</span></p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Brows & Lashes -->
+        <div class="reveal-element delay-100">
+          <div class="flex items-center gap-2 mb-6 opacity-70">
+            <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+            <span class="text-xs uppercase tracking-widest font-medium"><span class="t-en">Brows &amp; Lashes</span><span class="t-pt">Sobrancelhas e Cílios</span></span>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif">Eyebrow Design</span><span class="text-lg italic font-serif text-accent-500">€20</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif">Brow Design + Tint</span><span class="text-lg italic font-serif text-accent-500">€28</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif">Lash Lift</span><span class="text-lg italic font-serif text-accent-500">€50</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif">Brow Lamination</span><span class="text-lg italic font-serif text-accent-500">€45</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Waxing -->
+        <div class="reveal-element delay-200">
+          <div class="flex items-center gap-2 mb-6 opacity-70">
+            <i data-lucide="feather" class="w-3.5 h-3.5"></i>
+            <span class="text-xs uppercase tracking-widest font-medium"><span class="t-en">Hair Removal</span><span class="t-pt">Depilação</span></span>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Facial Waxing <span class="text-xs opacity-70">(per area)</span></span><span class="t-pt">Depilação Facial <span class="text-xs opacity-70">(por área)</span></span></span>
+              <span class="text-lg italic font-serif text-accent-500">€10</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Underarm</span><span class="t-pt">Axila</span></span><span class="text-lg italic font-serif text-accent-500">€15</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Bikini</span><span class="t-pt">Virilha simples</span></span><span class="text-lg italic font-serif text-accent-500">€25</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Hollywood</span><span class="t-pt">Virilha completa</span></span><span class="text-lg italic font-serif text-accent-500">€35</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Half Leg</span><span class="t-pt">Meia Perna</span></span><span class="text-lg italic font-serif text-accent-500">€20</span>
+            </li>
+            <li class="flex justify-between items-baseline gap-4 border-b border-burgundy-800/10 pb-2">
+              <span class="text-lg font-serif"><span class="t-en">Full Leg</span><span class="t-pt">Perna Inteira</span></span><span class="text-lg italic font-serif text-accent-500">€35</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Coming soon -->
+      <div class="reveal-element delay-300 mt-14 flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-nude-200/50 border border-burgundy-800/5 rounded-2xl p-6">
+        <span class="inline-flex items-center gap-1.5 bg-accent-500/10 text-accent-500 text-[10px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full whitespace-nowrap">
+          <span class="w-1.5 h-1.5 rounded-full bg-accent-500"></span>
+          <span class="t-en">Coming soon</span><span class="t-pt">Em breve</span>
+        </span>
+        <p class="text-sm text-burgundy-800/75 leading-relaxed">
+          <span class="t-en"><strong class="text-burgundy-800 font-semibold">Microblading &amp; Eyebrow Micropigmentation</strong> — a semi-permanent technique for natural, fuller, beautifully defined brows.</span>
+          <span class="t-pt"><strong class="text-burgundy-800 font-semibold">Microblading e Micropigmentação de Sobrancelhas</strong> — técnica semipermanente para sobrancelhas naturais, mais cheias e bem definidas.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MINI DAY SPA ============ -->
+  <section class="relative overflow-hidden my-8 py-28 px-6 bg-burgundy-900 noise">
+    <div class="absolute inset-0 z-0 bg-gradient-radial from-accent-500/45 via-burgundy-900 to-burgundy-900" data-parallax="0.2"></div>
+    <div class="orb orb-accent w-[460px] h-[460px] top-1/4 left-1/4" data-parallax="0.3"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
+      <span class="reveal-element text-xs uppercase tracking-[0.2em] mb-4 block text-white/80">
+        <span class="t-en">Signature experience</span><span class="t-pt">Experiência assinatura</span>
+      </span>
+      <h2 class="reveal-element delay-100 font-serif text-4xl md:text-6xl mb-4 tracking-tight">
+        Mini Day Spa <span class="italic font-light text-nude-300">Experience</span>
+      </h2>
+      <p class="reveal-element delay-200 text-white/80 mb-8 max-w-lg mx-auto leading-relaxed">
+        <span class="t-en">A personalised facial plus your choice of relaxing massage or lymphatic drainage. One booking, a full afternoon of care.</span>
+        <span class="t-pt">Um facial personalizado mais massagem relaxante ou drenagem linfática, à sua escolha. Uma reserva, uma tarde inteira de cuidado.</span>
+      </p>
+      <p class="reveal-element delay-200 font-serif text-6xl md:text-7xl text-nude-300 mb-8">€100</p>
+      <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+         class="wa-link shine reveal-element delay-300 inline-flex items-center gap-2 bg-white text-burgundy-900 px-8 py-3.5 rounded-full font-medium hover:bg-nude-200 transition-colors">
+        <i data-lucide="message-circle" class="w-4 h-4"></i>
+        <span class="t-en">Book the Mini Day Spa</span><span class="t-pt">Agendar o Mini Day Spa</span>
+      </a>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16 text-burgundy-800">
+        <div class="reveal-element delay-100 bg-nude-100 p-8 rounded-xl hover:-translate-y-2 transition-transform duration-300">
+          <i data-lucide="calendar-check" class="w-5 h-5 mx-auto mb-4 stroke-[1.5] text-accent-500"></i>
+          <h3 class="font-serif text-lg mb-1"><span class="t-en">Booked in advance</span><span class="t-pt">Agendado antes</span></h3>
+          <p class="text-[10px] uppercase tracking-wide opacity-70"><span class="t-en">Your slot is held for you</span><span class="t-pt">Seu horário fica reservado</span></p>
+        </div>
+        <div class="reveal-element delay-200 bg-nude-100 p-8 rounded-xl hover:-translate-y-2 transition-transform duration-300">
+          <i data-lucide="user-round" class="w-5 h-5 mx-auto mb-4 stroke-[1.5] text-accent-500"></i>
+          <h3 class="font-serif text-lg mb-1"><span class="t-en">One client at a time</span><span class="t-pt">Uma cliente por vez</span></h3>
+          <p class="text-[10px] uppercase tracking-wide opacity-70"><span class="t-en">No overlapping appointments</span><span class="t-pt">Sem sobreposição de horários</span></p>
+        </div>
+        <div class="reveal-element delay-300 bg-nude-100 p-8 rounded-xl hover:-translate-y-2 transition-transform duration-300">
+          <i data-lucide="hand-heart" class="w-5 h-5 mx-auto mb-4 stroke-[1.5] text-accent-500"></i>
+          <h3 class="font-serif text-lg mb-1"><span class="t-en">Adjusted to you</span><span class="t-pt">Ajustado a você</span></h3>
+          <p class="text-[10px] uppercase tracking-wide opacity-70"><span class="t-en">Room, comfort and technique</span><span class="t-pt">Ambiente, conforto e técnica</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="py-24 px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16 reveal-element">
+        <span class="text-xs uppercase tracking-widest opacity-70 mb-3 block"><span class="t-en">How it works</span><span class="t-pt">Como funciona</span></span>
+        <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Three steps,</span><span class="t-pt">Três passos,</span></h2>
+        <p class="font-serif text-3xl md:text-4xl italic text-accent-500"><span class="t-en">no waiting room</span><span class="t-pt">sem sala de espera</span></p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="reveal-element delay-100 relative pl-16">
+          <span class="absolute left-0 top-0 w-11 h-11 rounded-full bg-nude-200 border border-burgundy-800/10 flex items-center justify-center font-serif text-lg text-accent-500">1</span>
+          <h3 class="font-serif text-xl mb-2"><span class="t-en">Message on WhatsApp</span><span class="t-pt">Chame no WhatsApp</span></h3>
+          <p class="text-sm text-burgundy-800/75 leading-relaxed"><span class="t-en">Tell Jully what you need — or what you fancy. She'll help you choose.</span><span class="t-pt">Conte pra Jully o que você precisa — ou o que está com vontade. Ela ajuda a escolher.</span></p>
+        </div>
+        <div class="reveal-element delay-200 relative pl-16">
+          <span class="absolute left-0 top-0 w-11 h-11 rounded-full bg-nude-200 border border-burgundy-800/10 flex items-center justify-center font-serif text-lg text-accent-500">2</span>
+          <h3 class="font-serif text-xl mb-2"><span class="t-en">Your time gets blocked out</span><span class="t-pt">Seu horário fica reservado</span></h3>
+          <p class="text-sm text-burgundy-800/75 leading-relaxed"><span class="t-en">One client, one appointment. No one else is booked in your slot.</span><span class="t-pt">Uma cliente, um horário. Ninguém mais é agendado no seu horário.</span></p>
+        </div>
+        <div class="reveal-element delay-300 relative pl-16">
+          <span class="absolute left-0 top-0 w-11 h-11 rounded-full bg-nude-200 border border-burgundy-800/10 flex items-center justify-center font-serif text-lg text-accent-500">3</span>
+          <h3 class="font-serif text-xl mb-2"><span class="t-en">A treatment made for you</span><span class="t-pt">Um atendimento feito pra você</span></h3>
+          <p class="text-sm text-burgundy-800/75 leading-relaxed"><span class="t-en">From the room to the technique, everything is adjusted to what you need that day.</span><span class="t-pt">Do ambiente à técnica, tudo se ajusta ao que você precisa naquele dia.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="py-24 px-6 bg-nude-200/30">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
+      <div class="md:col-span-4 reveal-element">
+        <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Everything you</span><span class="t-pt">Tudo o que você</span></h2>
+        <p class="font-serif text-4xl md:text-5xl italic text-accent-500 mb-6"><span class="t-en">might wonder</span><span class="t-pt">quer saber</span></p>
+        <p class="text-sm text-burgundy-800/75 leading-relaxed mb-6">
+          <span class="t-en">Still unsure about something? A message on WhatsApp is answered personally by Jully.</span>
+          <span class="t-pt">Ficou com alguma dúvida? Uma mensagem no WhatsApp é respondida pessoalmente pela Jully.</span>
+        </p>
+        <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+           class="wa-link bg-nude-200 hover:bg-nude-300 text-xs font-semibold uppercase tracking-wider px-6 py-3 rounded-full transition-colors inline-flex items-center gap-2">
+          <span class="t-en">Ask a question</span><span class="t-pt">Fazer uma pergunta</span>
+          <i data-lucide="arrow-right" class="w-3 h-3"></i>
+        </a>
+      </div>
+
+      <div class="md:col-span-8 space-y-3">
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-100">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">Do you take walk-ins?</span><span class="t-pt">Vocês atendem sem hora marcada?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">No — every appointment is booked in advance through WhatsApp, so your time is fully reserved for you.</span>
+            <span class="t-pt">Não — todo atendimento é agendado antes pelo WhatsApp, assim seu horário fica totalmente reservado para você.</span>
+          </div>
+        </details>
+
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-100">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">Where exactly are you located?</span><span class="t-pt">Onde fica o espaço exatamente?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">Seven Mills, Dublin. The exact address is shared with you when you book.</span>
+            <span class="t-pt">Seven Mills, Dublin. O endereço exato é enviado no momento do agendamento.</span>
+          </div>
+        </details>
+
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-200">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">How do I book an appointment?</span><span class="t-pt">Como eu agendo um horário?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">Message Jully directly on WhatsApp — tap any "Book on WhatsApp" button on this page.</span>
+            <span class="t-pt">Chame a Jully direto no WhatsApp — toque em qualquer botão "Agendar no WhatsApp" desta página.</span>
+          </div>
+        </details>
+
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-200">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">Is massage safe during pregnancy?</span><span class="t-pt">Massagem é segura durante a gravidez?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">Yes — the Pregnancy Massage is designed specifically to relieve tension and swelling safely during pregnancy.</span>
+            <span class="t-pt">Sim — a Pregnancy Massage foi pensada especificamente para aliviar tensão e inchaço com segurança durante a gravidez.</span>
+          </div>
+        </details>
+
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-300">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">I'm short on time — is there a quick option?</span><span class="t-pt">Estou sem tempo — tem alguma opção rápida?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">Yes: Facial Express and Relax Express are both 30-minute protocols made exactly for that.</span>
+            <span class="t-pt">Sim: Facial Express e Relax Express são protocolos de 30 minutos pensados exatamente pra isso.</span>
+          </div>
+        </details>
+
+        <details class="group bg-nude-100 rounded-lg open:bg-white transition-colors duration-300 reveal-element delay-300">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 gap-4">
+            <span><span class="t-en">Is microblading available now?</span><span class="t-pt">Microblading já está disponível?</span></span>
+            <span class="transition-transform group-open:rotate-180 flex-none"><i data-lucide="chevron-down" class="w-4 h-4"></i></span>
+          </summary>
+          <div class="text-burgundy-800/75 p-6 pt-0 text-sm leading-relaxed">
+            <span class="t-en">Not yet — Microblading &amp; Eyebrow Micropigmentation is coming soon. Message on WhatsApp to be the first to know.</span>
+            <span class="t-pt">Ainda não — Microblading e Micropigmentação de Sobrancelhas está chegando em breve. Chame no WhatsApp pra ser avisada em primeira mão.</span>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contato" class="py-24 px-6 relative overflow-hidden">
+    <div class="orb orb-nude w-[320px] h-[320px] -top-10 left-1/3" data-parallax="0.14"></div>
+
+    <div class="relative z-10 max-w-3xl mx-auto text-center mb-12 reveal-element">
+      <div class="flex justify-center gap-5 mb-5 text-accent-500 opacity-70">
+        <i data-lucide="message-circle" class="w-6 h-6 -rotate-12"></i>
+        <i data-lucide="sparkles" class="w-8 h-8 -mt-3"></i>
+        <i data-lucide="heart" class="w-6 h-6 rotate-12"></i>
+      </div>
+      <h2 class="font-serif text-4xl md:text-5xl tracking-tight mb-1"><span class="t-en">Let's book</span><span class="t-pt">Vamos agendar</span></h2>
+      <p class="font-serif text-4xl md:text-5xl italic text-accent-500 mb-6"><span class="t-en">your time</span><span class="t-pt">seu horário</span></p>
+      <p class="text-sm text-burgundy-800/75 max-w-md mx-auto leading-relaxed mb-8">
+        <span class="t-en">One message on WhatsApp is all it takes. Jully replies personally and helps you pick the right treatment.</span>
+        <span class="t-pt">Uma mensagem no WhatsApp já é o suficiente. A Jully responde pessoalmente e ajuda a escolher o tratamento certo.</span>
+      </p>
+      <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+         class="wa-link shine inline-flex items-center gap-2 bg-accent-500 hover:bg-burgundy-800 text-white px-8 py-4 rounded-full text-sm font-medium transition-colors duration-300">
+        <i data-lucide="message-circle" class="w-4 h-4"></i>
+        <span class="t-en">Book on WhatsApp now</span><span class="t-pt">Agendar no WhatsApp agora</span>
+      </a>
+    </div>
+
+    <div class="relative z-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+      <a href="tel:+353899447831" class="reveal-element delay-100 bg-nude-200/40 hover:bg-nude-200 p-5 rounded-xl flex justify-between items-center border border-burgundy-800/5 transition-colors group">
+        <div>
+          <h3 class="font-serif text-lg"><span class="t-en">Call or WhatsApp</span><span class="t-pt">Ligar ou WhatsApp</span></h3>
+          <p class="text-xs opacity-70 mt-0.5">+353 89 944 7831</p>
+        </div>
+        <i data-lucide="phone" class="w-4 h-4 opacity-40 group-hover:opacity-100 group-hover:text-accent-500 transition-all"></i>
+      </a>
+
+      <a href="https://www.google.com/maps/search/?api=1&query=Seven+Mills%2C+Dublin%2C+Ireland" target="_blank" rel="noopener"
+         class="reveal-element delay-200 bg-nude-200/40 hover:bg-nude-200 p-5 rounded-xl flex justify-between items-center border border-burgundy-800/5 transition-colors group">
+        <div>
+          <h3 class="font-serif text-lg"><span class="t-en">Find me</span><span class="t-pt">Onde fica</span></h3>
+          <p class="text-xs opacity-70 mt-0.5">Seven Mills, Dublin</p>
+        </div>
+        <i data-lucide="map-pin" class="w-4 h-4 opacity-40 group-hover:opacity-100 group-hover:text-accent-500 transition-all"></i>
+      </a>
+
+      <div class="reveal-element delay-300 bg-nude-200/40 p-5 rounded-xl flex justify-between items-center border border-burgundy-800/5">
+        <div>
+          <h3 class="font-serif text-lg"><span class="t-en">Hours</span><span class="t-pt">Horários</span></h3>
+          <p class="text-xs opacity-70 mt-0.5"><span class="t-en">By appointment only</span><span class="t-pt">Só por agendamento</span></p>
+        </div>
+        <i data-lucide="clock" class="w-4 h-4 opacity-40"></i>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-burgundy-900 text-nude-100 pt-16 pb-28 md:pb-20 px-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
+      <div>
+        <div class="flex items-center gap-4 mb-5">
+          <img src="assets/icons/brand-mark-light.png" alt="Jully Ronqui monogram" class="h-12 w-auto">
+          <span class="w-px h-9 bg-nude-100/20"></span>
+          <span class="leading-none">
+            <span class="block font-serif text-xl font-medium tracking-tight">Jully Ronqui</span>
+            <span class="block font-sans text-[9px] tracking-[0.22em] uppercase text-nude-100/70 mt-1.5">Beauty &amp; Wellness</span>
+          </span>
+        </div>
+        <p class="text-nude-100/70 text-xs leading-relaxed max-w-xs mb-6">
+          <span class="t-en">Personalised facials, massages, brows &amp; lashes and waxing in Seven Mills, Dublin. One client at a time, by appointment.</span>
+          <span class="t-pt">Facial, massagens, sobrancelhas, cílios e depilação em Seven Mills, Dublin. Uma cliente por vez, só por agendamento.</span>
+        </p>
+        <div class="text-xs text-nude-100/70 space-y-1.5">
+          <p><a href="tel:+353899447831" class="hover:text-white transition-colors">+353 89 944 7831</a></p>
+          <p><a href="https://www.google.com/maps/search/?api=1&query=Seven+Mills%2C+Dublin%2C+Ireland" target="_blank" rel="noopener" class="hover:text-white transition-colors">Seven Mills, Dublin, Ireland</a></p>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-medium mb-5"><span class="t-en">Menu</span><span class="t-pt">Menu</span></h3>
+        <ul class="space-y-2.5 text-sm text-nude-100/70">
+          <li><a class="hover:text-white transition-colors" href="#servicos"><span class="t-en">Services</span><span class="t-pt">Serviços</span></a></li>
+          <li><a class="hover:text-white transition-colors" href="#sobre"><span class="t-en">About</span><span class="t-pt">Sobre</span></a></li>
+          <li><a class="hover:text-white transition-colors" href="#faq">FAQ</a></li>
+          <li><a class="hover:text-white transition-colors" href="#contato"><span class="t-en">Contact</span><span class="t-pt">Contato</span></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-medium mb-5"><span class="t-en">Booking</span><span class="t-pt">Agendamento</span></h3>
+        <p class="text-[10px] uppercase tracking-widest text-nude-100/70 mb-2"><span class="t-en">Hours</span><span class="t-pt">Horários</span></p>
+        <p class="text-xs text-nude-100/80 mb-5"><span class="t-en">By appointment only</span><span class="t-pt">Só por agendamento</span></p>
+        <a href="https://wa.me/353899447831?text=Hi%21%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20book%20an%20appointment."
+           class="wa-link inline-flex items-center gap-2 text-xs font-medium bg-accent-500 hover:bg-white hover:text-burgundy-900 text-white px-5 py-2.5 rounded-full transition-colors">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 mt-14 pt-8 flex flex-col md:flex-row justify-between items-center gap-2 text-[10px] text-nude-100/70 md:pr-24">
+      <p>&copy; <span id="year">2026</span> Jully Ronqui Beauty &amp; Wellness</p>
+      <p>Dublin, Ireland</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.544.0/dist/umd/lucide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Jully Ronqui Beauty & Wellness",
+  "description": "Personalised facials, massages, brows & lashes in Seven Mills, Dublin, by appointment only.",
+  "image": "assets/images/og-card.jpg",
+  "telephone": "+353899447831",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Seven Mills",
+    "addressLocality": "Dublin",
+    "addressCountry": "IE"
+  },
+  "areaServed": "Dublin",
+  "priceRange": "€10-€100",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Treatments",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Facial Treatments",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "75",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Glow Experience",
+              "description": "Deep cleansing facial for healthy, luminous skin."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "75",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dermaplaning",
+              "description": "Exfoliates and removes dead skin cells for smoother, brighter skin."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "75",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post-Holiday Glow Facial",
+              "description": "Brightening and revitalising facial for dull, uneven skin."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "45",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Facial Express",
+              "description": "30-minute facial to refresh and revitalise the skin."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Massages & Body",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "70",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Relaxing Massage",
+              "description": "Relieves muscle tension and promotes deep relaxation."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "70",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lymphatic Drainage",
+              "description": "Reduces swelling and promotes detox."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "70",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pregnancy Massage",
+              "description": "Relieves tension and swelling during pregnancy."
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "40",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Relax Express Massage",
+              "description": "30-minute massage: back, shoulders and neck."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Brows & Lashes",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "20",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Eyebrow Design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "28",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brow Design + Tint"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "50",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lash Lift"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "45",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brow Lamination"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Hair Removal",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "10",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Facial Waxing (per area)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "15",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Underarm Waxing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "25",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bikini Waxing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "35",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hollywood Waxing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "20",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Half Leg Waxing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "35",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full Leg Waxing"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Signature",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "price": "100",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mini Day Spa Experience",
+              "description": "A personalised facial plus a relaxing massage or lymphatic drainage."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "currenciesAccepted": "EUR",
+  "availableLanguage": [
+    "en",
+    "pt"
+  ]
+}
+</script>
+
+</body>
+</html>
