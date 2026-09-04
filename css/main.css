@@ -34,6 +34,7 @@ body { margin:0; font-family:'Inter', sans-serif; }
 .orb-accent   { background:radial-gradient(circle, rgba(141,90,72,.35), transparent 70%) }
 .orb-nude     { background:radial-gradient(circle, rgba(232,189,176,.75), transparent 70%) }
 .orb-burgundy { background:radial-gradient(circle, rgba(74,46,35,.30), transparent 70%) }
+.orb-rose     { background:radial-gradient(circle, rgba(194,120,100,.40), transparent 70%) }
 
 /* Film grain */
 .noise::before {
@@ -57,12 +58,12 @@ body { margin:0; font-family:'Inter', sans-serif; }
 .mask-fade { -webkit-mask-image:linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
                      mask-image:linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent) }
 
-/* Cropped portrait from the "about me" artwork — shows only the photo half */
+/* About portrait — source is pre-cropped to the container's 3:4 ratio */
 .about-crop {
   background-image:url("../assets/images/about-portrait.jpg");
   background-image:image-set(url("../assets/images/about-portrait.webp") type("image/webp"), url("../assets/images/about-portrait.jpg") type("image/jpeg"));
-  background-size:215% auto;
-  background-position:3% 20%;
+  background-size:cover;
+  background-position:center;
   background-repeat:no-repeat;
 }
 
