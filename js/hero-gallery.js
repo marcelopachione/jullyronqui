@@ -5,7 +5,6 @@
 (function () {
   var HERO_POOLS = {
     brows: [
-      { base: 'brows', alt: 'Eyebrow design being shaped with tweezers during a brow appointment' },
       { base: 'brows-2', alt: 'Eyebrow tweezing in progress, shaping the arch with precision' },
       { base: 'brows-3', alt: 'Eyelash extensions being carefully removed with fine tweezers' },
       { base: 'brows-4', alt: 'Close-up of brow tweezing along the natural arch' },
